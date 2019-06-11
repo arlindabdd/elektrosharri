@@ -3840,8 +3840,8 @@ input[type="button"].btn-block {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125); }
+  background-color: rgba(9, 5, 71, 0.03);
+  border-top: 1px solid rgba(6, 5, 85, 0.125); }
   .card-footer:last-child {
     border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
 
@@ -8086,7 +8086,7 @@ h1, h2, h3, h4, h5,
   padding: 0; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #022d5d !important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
