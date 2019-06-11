@@ -3840,8 +3840,8 @@ input[type="button"].btn-block {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: rgba(9, 5, 71, 0.03);
-  border-top: 1px solid rgba(6, 5, 85, 0.125); }
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125); }
   .card-footer:last-child {
     border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
 
@@ -8012,7 +8012,7 @@ h1, h2, h3, h4, h5,
   color: #fda729 !important; }
 
 .bg-top {
-  background: #1683fb; }
+  background: #157ceb; }
 
 .topper {
   font-size: 15px;
@@ -8081,12 +8081,12 @@ h1, h2, h3, h4, h5,
 
 .ftco-navbar-light {
   background: transparent !important;
-  background: #1683fb !important;
+  background: #157ceb !important;
   z-index: 3;
   padding: 0; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #1683fb !important;
+      background: #157ceb !important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
@@ -9013,7 +9013,7 @@ textarea.form-control {
   padding-bottom: 0; }
 
 .ftco-bg-dark {
-  background: #3c312e; }
+  background: #ffffff; }
 
 .ftco-footer {
   font-size: 14px;
@@ -9374,7 +9374,7 @@ textarea.form-control {
     content: '';
     z-index: -1;
     opacity: 1;
-    background: #fda729; }
+    background: #ffffff; }
 
 .ftco-counter {
   overflow-x: hidden;
