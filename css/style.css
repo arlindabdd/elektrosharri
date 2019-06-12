@@ -734,7 +734,7 @@ TEAM SECTION
 COUNTER SECTION
 --------------------------------------------------------------------- */
 .counter-section {
-	background: url(../img/experiencetab.jpg) no-repeat center top fixed;
+	background: url(../img/bg_1.jpg) no-repeat center top fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -1625,7 +1625,7 @@ BLOG SINGLE PAGE
 Offcanvas Style
 -------------------------------------------------------------------*/
 .hippo-offcanvas-container{
-	background: #27272C;
+	background: rgb(255, 255, 255);
 }
 .hippo-offcanvas-pusher::after{
 	z-index: 1200;
@@ -1635,11 +1635,11 @@ Offcanvas Style
 }
 #off-canvas-close-btn{
 	padding: 0px 20px;
-	background: rgba(0, 0, 0, 0.3);
-	color: #fff;
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	height: 62px;
 	text-shadow: none;
-	opacity: 1;
+	opacity: 2;
 }
 #off-canvas-close-btn:hover,
 #off-canvas-close-btn:focus{
@@ -1650,19 +1650,19 @@ Offcanvas Style
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 500;
-	background: rgba(0, 0, 0, 0.25);
+	background: rgb(255, 255, 255);
 	padding: 1em 1em 1em 1.2em;
 	margin-bottom: 0;
 }
 .offcanvas-menu ul li a {
 	display: block;
 	padding: 1em 1em 1em 1.2em;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 14px;
 	font-weight: 500;
-	box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 -1px rgba(5, 5, 5, 0.2);
 }
 .offcanvas-menu ul li li a {
     font-size   : 12px;
