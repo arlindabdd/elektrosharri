@@ -1673,7 +1673,7 @@ Offcanvas Style
 .offcanvas-menu ul li.active a {
     background : rgba(0, 0, 0, 0.2);
     box-shadow : inset 0 -1px rgba(0, 0, 0, 0);
-    color      : #6145d6;
+    color      : #0ba14b;
     text-decoration: none;
 }
 
