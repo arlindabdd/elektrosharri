@@ -473,13 +473,13 @@ Work Section
 
 /*portfolio hover effect*/
 figure.css-hover-effect{
-	background: #8c63d4; 
-	background: -moz-linear-gradient(45deg,  #8c63d4 42%, #6d9ce5 88%);
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(42%,#8c63d4), color-stop(88%,#6d9ce5)); 
-	background: -webkit-linear-gradient(45deg,  #8c63d4 42%,#6d9ce5 88%); 
-	background: -o-linear-gradient(45deg,  #8c63d4 42%,#6d9ce5 88%);
-	background: -ms-linear-gradient(45deg,  #8c63d4 42%,#6d9ce5 88%); 
-	background: linear-gradient(45deg,  #8c63d4 42%,#6d9ce5 88%); 
+	background: #0ba14b; 
+	background: -moz-linear-gradient(45deg,  #0ba14b 42%, #6d9ce5 88%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(42%,#0ba14b), color-stop(88%,#0ba14b)); 
+	background: -webkit-linear-gradient(45deg,  #0ba14b 42%,#0ba14b 88%); 
+	background: -o-linear-gradient(45deg,  #0ba14b 42%,#0ba14b 88%);
+	background: -ms-linear-gradient(45deg,  #0ba14b 42%,#0ba14b 88%); 
+	background: linear-gradient(45deg,  #0ba14b 42%,#0ba14b 88%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c63d4', endColorstr='#6d9ce5',GradientType=1 ); 
 	position: relative;
 	overflow: hidden;
