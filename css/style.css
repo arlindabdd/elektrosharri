@@ -269,12 +269,12 @@ NAVIGATION
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:hover, 
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #6145d6;
+    color: #0ba14b;
     background-color: transparent;
-    border-bottom: 1px dotted #6145d6;
+    border-bottom: 1px dotted #0ba14b;
 }
 .navbar-default .navbar-nav>li>a:focus {
-	color: #8f8ca8;
+	color: #8ca892;
 }
 
 
