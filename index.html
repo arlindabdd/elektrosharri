@@ -1,11 +1,14 @@
 <!DOCTYPE html>
+
 <html>
 
 	<head>
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="description" content="">
+		<meta name="og:title" content="Elektrosharri"/>
+		<meta name="description" content="We Produce Green Energy">
+		<meta name="keywords" content="electricity , company , bio ,bioenergy , energy , save , nature , envirement , business , work , successes"/>
 		<meta name="author" content="">
 		<meta name="theme-color" content="#0ba14b"/>
 		<title>Elektrosharri • Green Energy</title>
@@ -28,8 +31,7 @@
 	    <!-- Custom CSS -->
 	    <link href="css/style.css" rel="stylesheet">
 	    <!-- Responsive CSS -->
-	    <link href="css/responsive.css" rel="stylesheet">
-
+		<link href="css/responsive.css" rel="stylesheet">
 	    <script src="js/vendor/modernizr-2.8.1.min.js"></script>
 	    <!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -481,15 +483,32 @@
       <div class="modal-body">
         <button data-dismiss="modal" class="close">&times;</button>
         <h4>Login</h4>
-        <form method="POST" action=index.php>
-          <input type="text" name="username" class="username form-control" placeholder="Username"/>
-          <input type="password" name="password" class="password form-control" placeholder="password"/>
-          <input class="btn login" type="submit" value="Login" />
+        <form name="login">
+				Username<input type="text" name="userid" class="username form-control" />
+				Password<input type="password" name="pswrd" class="password form-control" />
+				<br>
+				<input type="button" onclick="check(this.form)" value="Login" class="btn login"/>
+				<input type="reset" value="Cancel" class="btn login"/>
+				</form>
         </form>
       </div>
     </div>
   </div>  
 </div>
+<script language="javascript">
+		function check(form)/*function to check userid & password*/
+		{
+		 /*the following code checkes whether the entered userid and password are matching*/
+		 if(form.userid.value == "elektrosharri" && form.pswrd.value == "elektrosharriisthebest")
+		  {
+			window.open('system.html')/*opens the target page while Id & password matches*/
+		  }
+		 else
+		 {
+		   alert("Error Password or Username")/*displays error message*/
+		  }
+		}
+		</script>
 
 			</ul>
       	</div><!-- .offcanvas-menu -->
@@ -533,6 +552,6 @@
 	    <!-- GOGLE MAP -->
 	    <script src="https://maps.googleapis.com/maps/api/js"></script>
 	    <!-- Custom Script -->
-	    <script src="js/scripts.js"></script>
+		<script src="js/scripts.js"></script>
 	</body>
 </html>
