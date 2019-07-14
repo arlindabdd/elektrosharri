@@ -1,4 +1,18 @@
+
 <!DOCTYPE html>
+<?php 
+session_start();
+$username = "elektrosharri1"
+$password = "elektrosharriisthebest"
+
+if (isset($_SESSION['logged_in']) && $_SESSION['logged in'] == true) {
+    header ("Location: success.php")
+}
+if (isset ($_POST['username']) && isset($_POST['password'])) {
+    if ($_POST['username'] == $username && $_POST['password'])
+}
+?>
+
 <html>
 
 	<head>
@@ -436,6 +450,7 @@
 						</div>
 
 					</div><!-- /.container -->
+					
 				</footer>
 				<!-- footer end -->
         </div> <!-- .st-content-inner -->
@@ -467,6 +482,28 @@
 						<li><a href="mk">
 							<img border="0" alt="" src="img\lang_flags\mk.png">
 							</a></li>
+							<br>
+							<br>
+							<br>
+															<!--Trigger-->
+<a class="login-trigger" href="#" data-target="#login" data-toggle="modal">Login</a>
+
+<div id="login" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    
+    <div class="modal-content">
+      <div class="modal-body">
+        <button data-dismiss="modal" class="close">&times;</button>
+        <h4>Login</h4>
+        <form method="POST" action=index.php>
+          <input type="text" name="username" class="username form-control" placeholder="Username"/>
+          <input type="password" name="password" class="password form-control" placeholder="password"/>
+          <input class="btn login" type="submit" value="Login" />
+        </form>
+      </div>
+    </div>
+  </div>  
+</div>
 
 			</ul>
       	</div><!-- .offcanvas-menu -->

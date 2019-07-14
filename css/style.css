@@ -1949,3 +1949,13 @@ BACK TO TOP
     50%{background-position:100% 45%}
     100%{background-position:0% 56%}
 }
+
+.login-trigger {
+	font-weight: bold;
+	color: #fff;
+	background: linear-gradient(to bottom right, #0ba14b, #0ba14b);
+	padding: 15px 30px;
+	left: 12px;
+	position: relative; 
+	top: 50%;
+  }
